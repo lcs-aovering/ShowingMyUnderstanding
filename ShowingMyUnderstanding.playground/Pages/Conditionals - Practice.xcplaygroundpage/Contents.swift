@@ -28,8 +28,14 @@ let canvas = Canvas(width: 300, height: 300)
 // Generate a random number
 let number = random(from: 0, toButNotIncluding: 2)
 
-// Replace this comment and add your code below...
-
+//if you get 1 draw a blue circle
+if number == 1{
+    canvas.drawEllipse(centreX: 150, centreY: 150, width: 150, height: 150)
+}
+if number == 0{
+    canvas.drawRectangle(centreX: 150, centreY: 150, width: 150, height: 150)
+    
+}
 /*:
  ## Template code
  The code below is necessary to see results in the Assistant Editor at right. Please do not remove.
