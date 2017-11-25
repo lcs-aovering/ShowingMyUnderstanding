@@ -25,6 +25,8 @@ let canvas = Canvas(width: 700, height: 700)
 // Generate a random number
 
 let number = random(from: 1, toButNotIncluding: 4)
+
+//if the number is 1, provide image 1
 if number == 1{
     canvas.drawShapesWithBorders = false
     canvas.fillColor = Color.init(hue: 0, saturation: 0, brightness: 40, alpha: 100)
@@ -108,6 +110,7 @@ if number == 1{
         canvas.drawRectangle(bottomLeftX: y, bottomLeftY: y-550, width: 100, height: 100)
     }
 }
+//if the number is 3, provide image 2
 if number == 2{
     canvas.drawShapesWithBorders = false
     canvas.fillColor = Color.black
@@ -117,6 +120,7 @@ if number == 2{
         canvas.drawEllipse(centreX: x, centreY: x, width: x, height: x)
     }
 }
+//if the number is 3, provide image 3
 if number == 3{
     canvas.drawShapesWithBorders = false
     canvas.fillColor = Color.black
@@ -126,9 +130,6 @@ if number == 3{
         canvas.drawRectangle(centreX: x, centreY: x, width: x, height: x)
     }
 }
-   
-    
-
 
 /*:
  ## Template code
