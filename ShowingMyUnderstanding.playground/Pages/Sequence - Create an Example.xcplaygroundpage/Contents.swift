@@ -19,11 +19,26 @@
  */
 import Cocoa
 import PlaygroundSupport
-
 // Create canvas
 let canvas = Canvas(width: 300, height: 300)
+// no borders
+canvas.drawShapesWithBorders = false
+// black background
+canvas.fillColor = Color.black
+canvas.drawRectangle(bottomLeftX: 0, bottomLeftY: 0, width: 300, height: 300)
 
-// Replace this comment and add your code below...
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*:
  ## Template code
